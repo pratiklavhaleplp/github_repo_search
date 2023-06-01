@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.container:nth-child(2n){
+    background-color: white;
+}
+.image {
+  flex-shrink: 0;
+  margin-right: 10px;
+  height: 70px;
+  width: 70px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(
+    100% - 80px
+  );
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.description {
+  margin-bottom: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.row p {
+  margin-right: 10px;
+}

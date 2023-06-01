@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.style-input {
+  height: 7vh;
+  width: 40vw;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: x-large;
+  font-weight: lighter;
+}
+.header {
+  background-color: rgb(65, 96, 145);
+}
+.card-section {
+  min-height: 91vh;
+  height: fit-content;
+  background-color: rgb(230, 232, 235);
+  scroll-behavior: auto;
+  
+}
